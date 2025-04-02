@@ -15,6 +15,7 @@ if __name__ == "__main__":
     from logging_setup import LoggingArgs
 
 __SCRIPT_VERSION__ = "0.0.2"
+__DECK_VERSION__ = "0.0.2-2"
 
 headers = [
     "Vocab",
@@ -192,7 +193,7 @@ def build_package(deck: genanki.Deck) -> genanki.Package:
 
 def export_package(package: genanki.Package) -> None:
     logging.log(SPAM, f"Start of '{inspect.currentframe().f_code.co_name}()'")  # type: ignore
-    package.write_to_file("output.apkg")
+    package.write_to_file(f"KoreanClassVocab-v{__DECK_VERSION__}.apkg")
 
     logging.log(SPAM, f"End of '{inspect.currentframe().f_code.co_name}()'")  # type: ignore
     return
@@ -311,34 +312,34 @@ def main() -> None:
     logging.log(SUCCESS, "##########################################")
 
     model = build_model()
-    logging.debug("Finished building model")
+    logging.info("Finished building model")
 
     deck = build_deck()
-    logging.debug("Finished initializing deck")
+    logging.info("Finished initializing deck")
 
     package = build_package(deck)
-    logging.debug("Finished initializing package")
+    logging.info("Finished initializing package")
 
     notes_list = build_notes_list()
-    logging.debug("Finished importing notes from file")
+    logging.info("Finished importing notes from file")
 
     notes_list = generate_missing_audio(notes_list)
-    logging.debug("Finished generating missing audio")
+    logging.info("Finished generating missing audio")
 
     notes = build_notes(model, notes_list)
-    logging.debug("Finished building notes")
+    logging.info("Finished building notes")
 
     update_input_file(notes_list)
-    logging.debug("Finished writing changes to 'input.csv'")
+    logging.info("Finished writing changes to 'input.csv'")
 
     add_notes_to_deck(notes, deck)
-    logging.debug("Finished adding notes to deck")
+    logging.info("Finished adding notes to deck")
 
     add_media_to_package(package)
-    logging.debug("Finished adding media to package")
+    logging.info("Finished adding media to package")
 
     export_package(package)
-    logging.debug("Finished exporting package")
+    logging.info("Finished exporting package")
 
     logging.log(SPAM, f"End of '{inspect.currentframe().f_code.co_name}()'")  # type: ignore
     return

@@ -8,9 +8,15 @@
     "editor.minimap.renderCharacters": true,
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
+  "markdownlint.focusMode": 2,
   "[markdown]": {
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.markdownlint": true
+    },
     "editor.wordWrap": "on",
     "editor.quickSuggestions": {
       "comments": "off",
