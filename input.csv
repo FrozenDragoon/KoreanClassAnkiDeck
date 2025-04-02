@@ -1,0 +1,9 @@
+Vocab,Pre-Vocab-Context,Post-Vocab-Context,Vocab-Pro,Vocab-English,Vocab-Sound,Vocab-Sound-Is-TTS,Vocab-Hanja,Vocab-Topik,Comment,Sentence,Sentence-English,Sentence-Sound,Sentence-Is-TTS,Sentence-TTS-Source,Sentence-TTS-Voice,Sentence-TTS-Speed,Vocab-Sound-Source,Sentence-Sound-Source
+임신,,,,Pregnancy,[sound:임신.mp3],Yes,,,,제 아내가 임신을 했어요.,My wife is pregnant.,[sound:제 아내가 임신을 했어요..mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS
+태어나다,,,,To Be Born,[sound:태어나다.mp3],Yes,,,,나는 1983년 11월 10일에 태어났다.,"I was born on November 10, 1983.",[sound:나는 1983년 11월 10일에 태어났다..mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS
+살다,(-에),,,To Live (To reside or stay in a certain place),[sound:살다.mp3],Yes,,,,그는 런던에 살고 있다.,He lives in London.,[sound:그는 런던에 살고 있다..mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS
+친구,,,,Friend,[sound:친구.mp3],Yes,,,,여자 친구 있어요?,Do you have a girlfriend?,[sound:여자 친구 있어요.mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS
+남자,,,,Man,[sound:남자.mp3],Yes,,,,남자 친구 있어요?,Do you have a boyfriend?,[sound:남자 친구 있어요.mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS
+여자,,,,Woman,[sound:여자.mp3],Yes,,,,여자 친구 있어요?,Do you have a girlfriend?,,,,,,Papago Naver TTS,
+가족,,,,Family,[sound:가족.mp3],Yes,,,,,,,,,,,Papago Naver TTS,
+집,,,,House,[sound:집.mp3],Yes,,,,,,,,,,,Papago Naver TTS,
