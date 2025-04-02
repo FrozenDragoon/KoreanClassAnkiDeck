@@ -2,6 +2,7 @@ import csv
 import inspect
 import logging
 import os
+import shutil
 
 import genanki  # type: ignore
 from navertts import NaverTTS  # type: ignore
@@ -13,7 +14,7 @@ if __name__ == "__main__":
     from logging_setup import logging_setup
     from logging_setup import LoggingArgs
 
-__VERSION__ = "0.0.1"
+__SCRIPT_VERSION__ = "0.0.2"
 
 headers = [
     "Vocab",
@@ -35,6 +36,7 @@ headers = [
     "Sentence-TTS-Speed",
     "Vocab-Sound-Source",
     "Sentence-Sound-Source",
+    "tags",
 ]
 
 
@@ -42,7 +44,10 @@ class MyNote(genanki.Note):
 
     @property
     def guid(self: genanki.Note) -> genanki.guid_for:
-        return genanki.guid_for(self.fields[0], self.fields[1])
+        # Generate note Hash from fields "Vocab", "Pre-Vocab-Context", "Post-Vocab-Context", "Vocab-Pro" # noqa: B950
+        return genanki.guid_for(
+            self.fields[0], self.fields[1], self.fields[2], self.fields[3]
+        )
 
 
 def add_media_to_package(package: genanki.Package) -> None:
@@ -124,6 +129,9 @@ def build_notes_list() -> list[dict]:
     logging.log(SPAM, f"Start of '{inspect.currentframe().f_code.co_name}()'")  # type: ignore
     notes_list: list[dict] = []
 
+    logging.debug("Creating backup input file")
+    shutil.copyfile("input.csv", "input.csv.backup")
+    logging.debug("Backup file created")
     with open("input.csv", "r") as infile:
 
         reader = csv.reader(infile)
@@ -164,7 +172,7 @@ def build_notes(model: genanki.Model, notes_list: list[dict]) -> list[genanki.No
                 n["Vocab-Sound-Source"],
                 n["Sentence-Sound-Source"],
             ],
-            tags=["GenAnkiTest"],
+            tags=n["tags"].split("|"),
         )
 
         notes.append(note)
@@ -213,15 +221,33 @@ def generate_missing_audio(notes: list[dict]) -> list[dict]:
         word = n["Vocab"]
         logging.debug(f"Word: '{word}")
 
+        pronunciation = n["Vocab-Pro"]
+        logging.debug(f"Word Pronunciation: '{pronunciation}'")
+
         sentence = n["Sentence"]
         logging.debug(f"Sentence: '{sentence}'")
 
         if word:
-            if not os.path.isfile(f"media/{word}.mp3"):
-                word_filename = generate_audio(word)
-                n["Vocab-Sound-Is-TTS"] = "Yes"
-                n["Vocab-Sound"] = f"[sound:{word_filename.split('/')[-1]}]"
-                n["Vocab-Sound-Source"] = "Papago Naver TTS"
+            if pronunciation:
+                if not os.path.isfile(f"media/{pronunciation}.mp3"):
+                    pronunciation_filename = generate_audio(pronunciation)
+                    n["Vocab-Sound-Is-TTS"] = "Yes"
+                    n["Vocab-Sound"] = (
+                        f"[sound:{pronunciation_filename.split('/')[-1]}]"
+                    )
+                    n["Vocab-Sound-Source"] = "Papago Naver TTS"
+                else:
+                    logger.debug(
+                        f"Audio pronunciation for '{pronunciation}' already exists, skipping"
+                    )
+            else:
+                if not os.path.isfile(f"media/{word}.mp3"):
+                    word_filename = generate_audio(word)
+                    n["Vocab-Sound-Is-TTS"] = "Yes"
+                    n["Vocab-Sound"] = f"[sound:{word_filename.split('/')[-1]}]"
+                    n["Vocab-Sound-Source"] = "Papago Naver TTS"
+                else:
+                    logger.debug(f"Audio for '{word}' already exists, skipping")
 
         if sentence:
             normalized_sentence = normalize_for_filename(sentence)
@@ -230,6 +256,8 @@ def generate_missing_audio(notes: list[dict]) -> list[dict]:
                 n["Sentence-Sound"] = f"[sound:{sentence_filename.split('/')[-1]}]"
                 n["Sentence-Is-TTS"] = "Yes"
                 n["Sentence-Sound-Source"] = "Papago Naver TTS"
+            else:
+                logger.debug(f"Audio for '{sentence}' already exists, skipping")
 
     logging.log(SPAM, f"End of '{inspect.currentframe().f_code.co_name}()'")  # type: ignore
     return notes
@@ -249,12 +277,28 @@ def normalize_for_filename(input: str) -> str:
 
 def update_input_file(notes: list[dict]) -> None:
 
-    logging.log(SPAM, f"Start of '{inspect.currentframe().f_code.co_name}()'")  # type: ignore
-    with open("input.csv", "w") as outfile:
-        writer = csv.DictWriter(outfile, fieldnames=headers)
+    try:
+        logging.log(SPAM, f"Start of '{inspect.currentframe().f_code.co_name}()'")  # type: ignore
+        with open("input.csv", "w") as outfile:
+            writer = csv.DictWriter(outfile, fieldnames=headers)
 
-        writer.writeheader()
-        writer.writerows(notes)
+            writer.writeheader()
+            writer.writerows(notes)
+
+        logger.debug("Successfully wrote data to 'input.csv'")
+
+        os.remove("input.csv.backup")
+        logger.debug("Backup file 'input.csv.backup' removed")
+    except Exception as e:
+        logger.critical(
+            "Something went wrong while writing to 'input.csv'. Backing out."
+        )
+
+        if os.path.isfile("input.csv.backup"):
+            shutil.copyfile("input.csv.backup", "input.csv")
+            logger.debug("Backup file successfully renamed to main file.")
+
+        raise e
 
     logging.log(SPAM, f"End of '{inspect.currentframe().f_code.co_name}()'")  # type: ignore
     return
@@ -263,20 +307,24 @@ def update_input_file(notes: list[dict]) -> None:
 def main() -> None:
     logging.log(SPAM, f"Start of '{inspect.currentframe().f_code.co_name}()'")  # type: ignore
     logging.log(SUCCESS, "'궁중무술 한국어 어 수업' Anki Deck Script")
-    logging.log(SUCCESS, f"Version v{__VERSION__}")
+    logging.log(SUCCESS, f"Version v{__SCRIPT_VERSION__}")
     logging.log(SUCCESS, "##########################################")
 
     model = build_model()
     logging.debug("Finished building model")
+
     deck = build_deck()
     logging.debug("Finished initializing deck")
+
     package = build_package(deck)
     logging.debug("Finished initializing package")
 
     notes_list = build_notes_list()
     logging.debug("Finished importing notes from file")
+
     notes_list = generate_missing_audio(notes_list)
     logging.debug("Finished generating missing audio")
+
     notes = build_notes(model, notes_list)
     logging.debug("Finished building notes")
 

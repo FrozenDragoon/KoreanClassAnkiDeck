@@ -21,3 +21,6 @@ options at their default:
 
 There may be times where different options will be required (as changes are made to the card format,
 etc) but those times will be called out specifically on the releases page along with the new file.
+
+In the event that a card is changed dramatically, the old (possibly incorrect) card will need to be
+manually removed. I will also include instructions for that.
