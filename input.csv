@@ -6,10 +6,10 @@ Vocab,Pre-Vocab-Context,Post-Vocab-Context,Vocab-Pro,Vocab-English,Vocab-Sound,V
 남자,,,,Man / Male,[sound:남자.mp3],Yes,,,,남자 친구 있어요?,Do you have a boyfriend?,[sound:남자 친구 있어요.mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS,KJMSSection2Week1
 여자,,,,Woman / Female,[sound:여자.mp3],Yes,,,,여자 친구 있어요?,Do you have a girlfriend?,,,,,,Papago Naver TTS,,KJMSSection2Week1
 가족,,,,Family,[sound:가족.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week1
-집,,,,House,[sound:집.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week1
-저,,,,I (Formal),[sound:저.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week1
+집,,,,House,[sound:집.mp3],Yes,,,,나는 어젯밤 집에서 TV를 봤다.,Last night I stayed at home and watched TV.,[sound:나는 어젯밤 집에서 TV를 봤다..mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS,KJMSSection2Week1
+저,,,,I (Formal),[sound:저.mp3],Yes,,,,저는 ... 입니다.,I am.... (Lit: My name is...),[sound:저는 ... 입니다..mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS,KJMSSection2Week1
 나,,/ 내,,I (Informal),[sound:나.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week1
-제,,,,My (Formal),[sound:제.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week1
+제,,,,My (Formal),[sound:제.mp3],Yes,,,,제 이룸은 ... 입니다.,My name is ....,[sound:제 이룸은 ... 입니다..mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS,KJMSSection2Week1
 내,,(Possessive),,My (Informal),[sound:내.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week1
 네,,,,You,[sound:네.mp3],Yes,,,Always Informal,,,,,,,,Papago Naver TTS,,KJMSSection2Week1
 네,,(Possessive),니,Your,[sound:니.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week1
@@ -21,7 +21,7 @@ Vocab,Pre-Vocab-Context,Post-Vocab-Context,Vocab-Pro,Vocab-English,Vocab-Sound,V
 그여자,,,,She/Her,[sound:그여자.mp3],Yes,,,"Literally: ""That woman""",,,,,,,,Papago Naver TTS,,KJMSSection2Week1
 그남자의,,,,His,[sound:그남자의.mp3],Yes,,,"Literally: ""That man's""",,,,,,,,Papago Naver TTS,,KJMSSection2Week1
 그여자의,,,,Hers,[sound:그여자의.mp3],Yes,,,"Literally: ""That woman's""",,,,,,,,Papago Naver TTS,,KJMSSection2Week1
-그사람,,,,They,[sound:그사람.mp3],Yes,,,"Literally: ""That person""",,,,,,,,Papago Naver TTS,,KJMSSection2Week1
+그사람,,,,They,[sound:그사람.mp3],Yes,,,"Literally: ""That person""",그 사람이 당신 친구인가요? ,Are they a friend of yours? (Alt: Is he/is she),[sound:그 사람이 당신 친구인가요.mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS,KJMSSection2Week1
 그사람의,,,,Their,[sound:그사람의.mp3],Yes,,,"Literally: ""That person's""",,,,,,,,Papago Naver TTS,,KJMSSection2Week1
 임신듸다,,,,To conceive,[sound:임신듸다.mp3],Yes,,,"""To become pregnant""",,,,,,,,Papago Naver TTS,,KJMSSection2Week1
 임신이다,,,,To be pregnant,[sound:임신이다.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week1
