@@ -1,8 +1,11 @@
 #
+*.apkg
 Notes
 *_cookies.txt
 test.py
 *.html
+!qfmt.html
+!afmt.html
 *.orig.py
 #
 *.sh

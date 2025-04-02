@@ -1,0 +1,32 @@
+.card {
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    //color: white;
+    //background-color: black;
+   }
+   td {
+       padding: 15px;
+   }
+   a:link, a:visited, a:active {
+     color: grey;
+   }
+   @font-face {
+     font-family: nanumgothic;
+     src: url("_NanumGothic-Regular.ttf");
+   }
+   @font-face {
+     font-family: nanummyeonjo;
+     src: url("_NanumMyeongjo-Regular.ttf");
+   }
+   @font-face {
+     font-family: nanumpenscript;
+     src: url("_NanumPenScript-Regular.ttf");
+   }
+   
+   #proofbutton {
+     font-size: 12px;
+   }
+   #ttsbutton {
+     font-size: 12px;
+   }

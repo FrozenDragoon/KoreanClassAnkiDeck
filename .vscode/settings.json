@@ -1,11 +1,13 @@
 {
+  "python.terminal.activateEnvironment": true,
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.defaultInterpreterPath": "~/.virtualenvs/anki/bin/python",
   "[python]": {
     "editor.rulers": [88],
     "files.trimTrailingWhitespace": true,
     "editor.minimap.renderCharacters": true,
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
-  "python.terminal.activateEnvironment": true,
   "[markdown]": {
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "editor.unicodeHighlight.invisibleCharacters": false,

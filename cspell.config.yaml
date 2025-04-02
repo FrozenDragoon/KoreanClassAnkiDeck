@@ -1,0 +1,6 @@
+ignorePaths:
+  - "**/*.db"
+  - ".gitignore"
+  - "Notes/*"
+  - "notes.md"
+  
