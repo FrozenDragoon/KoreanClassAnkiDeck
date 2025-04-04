@@ -7,6 +7,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.3-1] - 2025-04-04
+
+**Note:** 내의 and 성진 cards must be manually deleted.
+
+### Added
+
+- Add additional sentences
+
+### Fixed
+
+- 내의 -> 내외 "Couple"
+- 성진 -> 성인 "Adult"
+- 덩생 - "Sibling" corrected to "Younger Sibling"
+
 ## [0.0.3] - 2025-04-04
 
 ### Added

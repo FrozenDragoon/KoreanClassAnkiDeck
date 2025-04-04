@@ -13,6 +13,9 @@ audio from Naver's KoEng Dictionary and Forvo is a work in progress.
 
 ## Importing Deck Updates
 
+**Note**: The deck must remain at the top level (not nested within a deck "folder"). This is due to
+"folders" being decks themselves and causing the ID/name of the imported deck to not match.
+
 To import deck updates, simply open the `.apkg` file (either on Mobile or Desktop). Leave all the
 options at their default:
 

@@ -15,7 +15,7 @@ if __name__ == "__main__":
     from logging_setup import LoggingArgs
 
 __SCRIPT_VERSION__ = "0.0.2"
-__DECK_VERSION__ = "0.0.3"
+__DECK_VERSION__ = "0.0.3-1"
 
 headers = [
     "Vocab",
