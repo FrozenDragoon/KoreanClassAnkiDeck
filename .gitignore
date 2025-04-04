@@ -1,4 +1,6 @@
 #
+media/
+dst/
 *.apkg
 Notes
 *_cookies.txt
