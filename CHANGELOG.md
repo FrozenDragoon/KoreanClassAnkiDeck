@@ -7,9 +7,109 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.5] - 2025-04-11
+
+**Note:** 학요 and 요에가다 cards must be manually deleted.
+
+### Fixed
+
+- Removed incorrect spelling (and duplicate) 학요 - 학교
+- Fixed spelling for 학요에가다 -> 학교에가다
+
+### Added
+
+- Additional Section 2 Week 3 Vocab
+  - 차고
+- Additional Section 2 Week 2 Vocab
+  - 댁
+- Section 1 Vocab (from packet)
+  - 하나
+  - 둘
+  - 셋
+  - 넷
+  - 다섯
+  - 여섯
+  - 일곱
+  - 여덟
+  - 아홉
+  - 열
+  - 스물
+  - 서른
+  - 마흔
+  - 쉰
+  - 예순
+  - 일흔
+  - 여든
+  - 아흔
+  - 일
+  - 이
+  - 삼
+  - 사
+  - 오
+  - 육
+  - 칠
+  - 팔
+  - 구
+  - 십
+  - 이십
+  - 삼십
+  - 사십
+  - 오십
+  - 육십
+  - 칠십
+  - 팔십
+  - 구십
+  - 백
+  - 천
+  - 만
+  - 십만
+  - 백만
+  - 천만
+  - 억
+  - 첫
+  - 첮째
+  - 첮번째
+  - 하다
+  - 되다
+  - 주다
+  - 이다
+  - 있다
+  - 안이다
+  - 없다
+  - 누구
+  - 뭐
+  - 무슨
+  - 언제
+  - 어디
+  - 어디에
+  - 어디에서
+  - 왜
+  - 어떻게
+  - 얼마나
+  - 몇
+  - 고
+  - 그리고
+  - 이나
+  - 가나
+  - 아니면
+  - 그렇지만
+  - 지만
+  - 그런데
+  - 아지만
+  - 그러면
+  - 면
+  - 그래서
+  - 서
+  - 그러니까
+  - 도
+
 ## [0.0.4] - 2025-04-11
 
 **Note:** 임신듸다  card must be manually deleted.
+
+### Fixed
+
+- 임신듸다 -> 임신되다 "To become pregnant" / "To conceive" (#1)
 
 ### Added
 
@@ -63,10 +163,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 日
   - 침대
 
-### Fixed
-
-- 임신듸다 -> 임신되다 "To become pregnant" / "To conceive" (#1)
-
 ## [0.0.3-1] - 2025-04-04
 
 **Note:** 내의 and 성진 cards must be manually deleted.
@@ -82,6 +178,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 덩생 - "Sibling" corrected to "Younger Sibling"
 
 ## [0.0.3] - 2025-04-04
+
+### Changed
+
+- Removed `media` folder from the git repo. The audio files don't need to be (and in the case
+of Forvo audio can't be) stored in the repo.
 
 ### Added
 
@@ -126,11 +227,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 생일
   - 환갑
 
-### Changed
-
-- Removed `media` folder from the git repo. The audio files don't need to be (and in the case
-of Forvo audio can't be) stored in the repo.
-
 ## [0.0.2-2] - 2025-04-02
 
 ### Changed
@@ -143,6 +239,14 @@ of Forvo audio can't be) stored in the repo.
 ### Breaking Change
 
 This import will create duplicate notes. This is due to changing how note IDs are generated.
+
+### Changed
+
+- Note IDs are now generated using fields `Vocab, Pre-Vocab-Context, Post-Vocab-Context, Vocab-Pro`
+  - Previously it was incorrectly just `Vocab, Pre-Vocab-Context`
+- Generated TTS audio now prefers the `Vocab-Pro` field (to generate a phonetic pronunciation)
+- Create (and clean up if successful) a backup of `input.csv`, so it will not get accidentally wiped
+- Additional logging added
 
 ### Added
 
@@ -166,14 +270,6 @@ This import will create duplicate notes. This is due to changing how note IDs ar
   - 임신듸다
   - 임신이다
 - Added tag `KJMSSection2Week1` to all relevant cards
-
-## Changed
-
-- Note IDs are now generated using fields `Vocab, Pre-Vocab-Context, Post-Vocab-Context, Vocab-Pro`
-  - Previously it was incorrectly just `Vocab, Pre-Vocab-Context`
-- Generated TTS audio now prefers the `Vocab-Pro` field (to generate a phonetic pronunciation)
-- Create (and clean up if successful) a backup of `input.csv`, so it will not get accidentally wiped
-- Additional logging added
 
 ## [0.0.1] - 2025-04-02
 

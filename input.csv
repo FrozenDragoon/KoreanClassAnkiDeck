@@ -70,7 +70,7 @@ Vocab,Pre-Vocab-Context,Post-Vocab-Context,Vocab-Pro,Vocab-English,Vocab-Sound,V
 금요일,,,그묘일,Friday,[sound:그묘일.mp3],Yes,金曜日,(TOPIK Elementary),金 = Gold,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
 월요일,,,워료일,Monday,[sound:워료일.mp3],Yes,月曜日,(TOPIK Elementary),月 = Moon,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
 커피,,,,Coffee,[sound:커피.mp3],Yes,,(TOPIK Elementary),Loan word,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-차,,,차,Tea,[sound:차.mp3],Yes,茶,(TOPIK Elementary),,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
+차,,,차,Tea / Car,[sound:차.mp3],Yes,茶,(TOPIK Elementary),Tea (茶)  - Car (車),,,,,,,,Papago Naver TTS,,KJMSSection2Week3
 만들다,,,만들다,To make,[sound:만들다.mp3],Yes,,(TOPIK Elementary),"""put together"" something from pieces",,,,,,,,Papago Naver TTS,,KJMSSection2Week3
 끓이다,,,끄리다,Boil,[sound:끄리다.mp3],Yes,,(TOPIK Elementary),"Used in class as ""brew"", to make using boiling water",,,,,,,,Papago Naver TTS,,KJMSSection2Week3
 일어나다,,,이러나다,stand up; rise; sit up / get up,[sound:이러나다.mp3],Yes,,(TOPIK Elementary),,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
@@ -89,7 +89,6 @@ Vocab,Pre-Vocab-Context,Post-Vocab-Context,Vocab-Pro,Vocab-English,Vocab-Sound,V
 주일,,,,week,[sound:주일.mp3],Yes,週日,(TOPIK Elementary),,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
 침실,,,,bedroom,[sound:침실.mp3],Yes,寢室,(TOPIK Elementary),,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
 토요일,,,,Saturday,[sound:토요일.mp3],Yes,土曜日,(TOPIK Elementary),土 = Earth / Soil / Dirt,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-학요,,,,school,[sound:학요.mp3],Yes,學校,(TOPIK Elementary),,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
 화요일,,,,Tuesday,[sound:화요일.mp3],Yes,火曜日,(TOPIK Elementary),火 = Fire,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
 화장실,,,,toilet; restroom; bathroom,[sound:화장실.mp3],Yes,化粧室,(TOPIK Elementary),,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
 일하러가다,,,,To go to work,[sound:일하러가다.mp3],Yes,,,"Remember here ""work"" is a concept, not a place. ""Going to do the concept of working""",,,,,,,,Papago Naver TTS,,KJMSSection2Week3
@@ -99,11 +98,11 @@ Vocab,Pre-Vocab-Context,Post-Vocab-Context,Vocab-Pro,Vocab-English,Vocab-Sound,V
 먹다,,,,To Eat,[sound:먹다.mp3],Yes,,(TOPIK Elementary),,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
 마당,,,,Yard,[sound:마당.mp3],Yes,,(TOPIK Elementary),,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
 앞마당,,,,Front Yard,[sound:앞마당.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-학요에가다,,,,To go to school,[sound:학요에가다.mp3],Yes,,,"에 Location marking particle, 가다 to go",,,,,,,,Papago Naver TTS,,KJMSSection2Week3
+학교에가다,,,,To go to school,[sound:학교에가다.mp3],Yes,,,"에 Location marking particle, 가다 to go",,,,,,,,Papago Naver TTS,,KJMSSection2Week3
 가다,,,,To go,[sound:가다.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
 학교,,,학꾜,School,[sound:학꾜.mp3],Yes,學校,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
 화장실에가다,,,,To go to the bathroom,[sound:화장실에가다.mp3],Yes,,,Literally to go to the location that is the bathroom,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-대변보다,,,,To deficate,[sound:대변보다.mp3],Yes,,,"대변 = Feces, 보다 = to see",,,,,,,,Papago Naver TTS,,KJMSSection2Week3
+대변보다,,,,To defecate,[sound:대변보다.mp3],Yes,,,"대변 = Feces, 보다 = to see",,,,,,,,Papago Naver TTS,,KJMSSection2Week3
 月,,,,Moon - pronounced 월,[sound:月.mp3],Yes,,,한자 used to represent Monday,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
 火,,,,Fire - pronounced 화,[sound:火.mp3],Yes,,,한자 used to represent Tuesday,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
 水,,,,Water - pronounced 수,[sound:水.mp3],Yes,,,한자 used to represent Wednesday,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
@@ -112,3 +111,84 @@ Vocab,Pre-Vocab-Context,Post-Vocab-Context,Vocab-Pro,Vocab-English,Vocab-Sound,V
 土,,,,Earth - pronounced 토,[sound:土.mp3],Yes,,,한자 used to represent Saturday,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
 日,,,,Sun - pronounced 일,[sound:日.mp3],Yes,,,한자 used to represent Sunday,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
 침대,,,,Bed,[sound:침대.mp3],Yes,寢臺,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
+하나,,,,One,[sound:하나.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+둘,,,,Two,[sound:둘.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+셋,,,,Three,[sound:셋.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+넷,,,,Four,[sound:넷.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+다섯,,,,Five,[sound:다섯.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+여섯,,,,Six,[sound:여섯.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+일곱,,,,Seven,[sound:일곱.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+여덟,,,,Eight,[sound:여덟.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+아홉,,,,Nine,[sound:아홉.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+열,,,,Ten,[sound:열.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+스물,,,,Twenty,[sound:스물.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+서른,,,,Thirty,[sound:서른.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+마흔,,,,Forty,[sound:마흔.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+쉰,,,,Fifty,[sound:쉰.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+예순,,,,Sixty,[sound:예순.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+일흔,,,,Seventy,[sound:일흔.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+여든,,,,Eighty,[sound:여든.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+아흔,,,,Ninety,[sound:아흔.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+일,,,,One,[sound:일.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+이,,,,Two,[sound:이.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+삼,,,,Three,[sound:삼.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+사,,,,Four,[sound:사.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+오,,,,Five,[sound:오.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+육,,,,Six,[sound:육.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+칠,,,,Seven,[sound:칠.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+팔,,,,Eight,[sound:팔.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+구,,,,Nine,[sound:구.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+십,,,,Ten,[sound:십.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+이십,,,,Twenty,[sound:이십.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+삼십,,,,Thirty,[sound:삼십.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+사십,,,,Forty,[sound:사십.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+오십,,,,Fifty,[sound:오십.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+육십,,,,Sixty,[sound:육십.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+칠십,,,,Seventy,[sound:칠십.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+팔십,,,,Eighty,[sound:팔십.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+구십,,,,Ninety,[sound:구십.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+백,,,,One Hundred,[sound:백.mp3],Yes,,,100,,,,,,,,Papago Naver TTS,,KJMSSection1
+천,,,,One Thousand,[sound:천.mp3],Yes,,,"1,000",,,,,,,,Papago Naver TTS,,KJMSSection1
+만,,,,Ten Thousand,[sound:만.mp3],Yes,,,"10,000",,,,,,,,Papago Naver TTS,,KJMSSection1
+십만,,,,One Hundred Thousand,[sound:십만.mp3],Yes,,,"100,000",,,,,,,,Papago Naver TTS,,KJMSSection1
+백만,,,,One Million,[sound:백만.mp3],Yes,,,"1,000,000",,,,,,,,Papago Naver TTS,,KJMSSection1
+천만,,,,Ten Million,[sound:천만.mp3],Yes,,,"10,000,000",,,,,,,,Papago Naver TTS,,KJMSSection1
+억,,,,One Hundred Million,[sound:억.mp3],Yes,,,"100,000,000",,,,,,,,Papago Naver TTS,,KJMSSection1
+첫,,,,,[sound:첫.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+첮째,,,,,[sound:첮째.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+첮번째,,,,,[sound:첮번째.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+하다,,,,To Do,[sound:하다.mp3],Yes,,,Can be combined with Nouns to make verbs (Ex. Food to do -> Do the food thing -> To Eat),,,,,,,,Papago Naver TTS,,KJMSSection1
+되다,,,,To Become,[sound:되다.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+주다,,,,To Give,[sound:주다.mp3],Yes,,,"Can be added after other verbs to make a ""Please [Verb]"" type sentence",,,,,,,,Papago Naver TTS,,KJMSSection1
+이다,,,,To Be ,[sound:이다.mp3],Yes,,,Identity,,,,,,,,Papago Naver TTS,,KJMSSection1
+있다,,,,To Be,[sound:있다.mp3],Yes,,,To exist (in a place),,,,,,,,Papago Naver TTS,,KJMSSection1
+안이다,,,,To Not Be,[sound:안이다.mp3],Yes,,,Identity,,,,,,,,Papago Naver TTS,,KJMSSection1
+없다,,,,To Be,[sound:없다.mp3],Yes,,,To Not Exist (in a place),,,,,,,,Papago Naver TTS,,KJMSSection1
+누구,,,,Who,[sound:누구.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+뭐,,,,What,[sound:뭐.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+무슨,,,,Which,[sound:무슨.mp3],Yes,,,Precedes a noun,,,,,,,,Papago Naver TTS,,KJMSSection1
+언제,,,,When,[sound:언제.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+어디,,,,Where,[sound:어디.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+어디에,,,,To Where,[sound:어디에.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,
+어디에서,,,,From Where,[sound:어디에서.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,
+왜,,,,Why,[sound:왜.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+어떻게,,,,How,[sound:어떻게.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+얼마나,,,,How Much,[sound:얼마나.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+몇,,,,How Many,[sound:몇.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+고,-,,,And,[sound:고.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+그리고,,...,,And,[sound:그리고.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+이나,Noun , Noun,,Or,[sound:이나.mp3],Yes,,,(이) after Consonant ,,,,,,,,Papago Naver TTS,,KJMSSection1
+가나,Verb , Verb,,Or,[sound:가나.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+아니면,,...,,Or,[sound:아니면.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+그렇지만,,...,그러치만 ,But,[sound:그러치만.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+지만,-,,,But,[sound:지만.mp3],Yes,,,"'-지만' is attached to the root of a verb, adjective, or ‘noun + 이다’ to indicate that the following clause is in contrast to the preceding clause.",,,,,,,,Papago Naver TTS,,KJMSSection1
+그런데,,...,,But / By the way / However,[sound:그런데.mp3],Yes,,,A word used to change the direction of a story while relating it to the preceding statement.,,,,,,,,Papago Naver TTS,,KJMSSection1
+아지만,,,,But,[sound:아지만.mp3],Yes,,,A word used to connect two statements that are opposite in meaning to each other.,,,,,,,,Papago Naver TTS,,KJMSSection1
+그러면,,...,,If so / Then,[sound:그러면.mp3],Yes,,,A conjunctive adverb used when the following statement is conditional upon the preceding one.,서둘러. 안 그러면 지각할 거야,Hurry up or else you’ll be late. ,[sound:서둘러. 안 그러면 지각할 거야.mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS,KJMSSection1
+면,-,,,If,[sound:면.mp3],Yes,,,Conjunctive,그를 만나면 이 쪽지 좀 전해 줘.,"If you see him, give him this note. ",[sound:그를 만나면 이 쪽지 좀 전해 줘..mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS,KJMSSection1
+그래서,,,,So/Because/Therefore,[sound:그래서.mp3],Yes,,,"When you use ‘그래서’ between two sentences, it means that the former sentence is the reason for the latter sentence.",우리가 아주 바빠요. 너무 그래서 올해는 쉴 시간을 못 낼 것 같아요. ,We are very busy—so much so that we won’t be able to take time off this year. ,[sound:우리가 아주 바빠요. 너무 그래서 올해는 쉴 시간을 못 낼 것 같아요..mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS,KJMSSection1
+서,-,,,So/Because,[sound:서.mp3],Yes,,,A postpositional particle used to indicate that the preceding word refers to grounds for doing something.,,,,,,,,Papago Naver TTS,,KJMSSection1
+그러니까,,,,So/Because / That is to say,[sound:그러니까.mp3],Yes,,,"For that reason, or therefore / To begin with.",그러니까 당신이 그들의 제의를 받아들일 수도 있군요?,So you might accept their offer?,[sound:그러니까 당신이 그들의 제의를 받아들일 수도 있군요.mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS,KJMSSection1
+도,,,,Also,[sound:도.mp3],Yes,,,"Can be used in list format: Noun도, Noun도",,,,,,,,Papago Naver TTS,,KJMSSection1
+차고,,,,Garage,[sound:차고.mp3],Yes,車庫,,Mnemonic: The 차 (car) 고 in the garage!,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
+댁,,,,(polite form) Another person's home or family.,[sound:댁.mp3],Yes,宅,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week1

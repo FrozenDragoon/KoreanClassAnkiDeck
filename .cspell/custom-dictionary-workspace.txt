@@ -3,6 +3,7 @@ Anki
 apkg
 clobberings
 Daum
+Endef
 Forvo
 genanki
 Hanja
@@ -15,9 +16,12 @@ nanummyeonjo
 nanumpenscript
 navertts
 NIKL
+postpositional
+Pronun
 proofbutton
 qfmt
 Romaji
 toggletts
 Topik
 ttsbutton
+vocabfile
