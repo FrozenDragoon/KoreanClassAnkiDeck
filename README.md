@@ -3,13 +3,13 @@
 **Download the latest deck on the [releases tab](/releases).**
 
 This script will ultimate by used to take input from a CSV and automatically
-(or as automatically as possible) pull audio files from ~~Naver dictionary, Forvo, and~~ Papago
+(or as automatically as possible) pull audio files from ~~Naver dictionary,~~ Forvo, and Papago
 (Naver) TTS.
 
 These will then be combined into an Anki deck that can be shared.
 
-As of 2025-04-02 all text is generated using Papago TTS (using the NaverTTS package). Pulling native
-audio from Naver's KoEng Dictionary and Forvo is a work in progress.
+2025-04-11 - I've begun adding native audio from Forvo.com. Files are pulled manually, and so are stored in this
+repo.
 
 ## Importing Deck Updates
 

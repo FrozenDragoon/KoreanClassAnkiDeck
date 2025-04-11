@@ -1,9 +1,9 @@
 Vocab,Pre-Vocab-Context,Post-Vocab-Context,Vocab-Pro,Vocab-English,Vocab-Sound,Vocab-Sound-Is-TTS,Vocab-Hanja,Vocab-Topik,Comment,Sentence,Sentence-English,Sentence-Sound,Sentence-Is-TTS,Sentence-TTS-Source,Sentence-TTS-Voice,Sentence-TTS-Speed,Vocab-Sound-Source,Sentence-Sound-Source,tags
-임신,,,,Pregnancy,[sound:임신.mp3],Yes,,,,제 아내가 임신을 했어요.,My wife is pregnant.,[sound:제 아내가 임신을 했어요..mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS,KJMSSection2Week1
-태어나다,,,,To Be Born,[sound:태어나다.mp3],Yes,,,,나는 1983년 11월 10일에 태어났다.,"I was born on November 10, 1983.",[sound:나는 1983년 11월 10일에 태어났다..mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS,KJMSSection2Week1
+임신,,,,Pregnancy,[sound:pronunciation_ko_임신.mp3],,,,,제 아내가 임신을 했어요.,My wife is pregnant.,[sound:제 아내가 임신을 했어요..mp3],Yes,,,,Forvo Native Speaker,Papago Naver TTS,KJMSSection2Week1
+태어나다,,,,To Be Born,[sound:pronunciation_ko_태어나다.mp3],,,,,나는 1983년 11월 10일에 태어났다.,"I was born on November 10, 1983.",[sound:나는 1983년 11월 10일에 태어났다..mp3],Yes,,,,Forvo Native Speaker,Papago Naver TTS,KJMSSection2Week1
 살다,(-에),,,To Live (To reside or stay in a certain place),[sound:살다.mp3],Yes,,,,그는 런던에 살고 있다.,He lives in London.,[sound:그는 런던에 살고 있다..mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS,KJMSSection2Week1
-친구,,,,Friend,[sound:친구.mp3],Yes,,,,여자 친구 있어요?,Do you have a girlfriend?,[sound:여자 친구 있어요.mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS,KJMSSection2Week1
-남자,,,,Man / Male,[sound:남자.mp3],Yes,,,,남자 친구 있어요?,Do you have a boyfriend?,[sound:남자 친구 있어요.mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS,KJMSSection2Week1
+친구,,,,Friend,[sound:pronunciation_ko_친구.mp3],,,,,여자 친구 있어요?,Do you have a girlfriend?,[sound:여자 친구 있어요.mp3],Yes,,,,Forvo Native Speaker,Papago Naver TTS,KJMSSection2Week1
+남자,,,,Man / Male,[sound:pronunciation_ko_남자.mp3],,,,,남자 친구 있어요?,Do you have a boyfriend?,[sound:남자 친구 있어요.mp3],Yes,,,,Forvo Native Speaker,Papago Naver TTS,KJMSSection2Week1
 여자,,,,Woman / Female,[sound:여자.mp3],Yes,,,,여자 친구 있어요?,Do you have a girlfriend?,,,,,,Papago Naver TTS,,KJMSSection2Week1
 가족,,,,Family,[sound:가족.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week1
 집,,,,House,[sound:집.mp3],Yes,,,,나는 어젯밤 집에서 TV를 봤다.,Last night I stayed at home and watched TV.,[sound:나는 어젯밤 집에서 TV를 봤다..mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS,KJMSSection2Week1
@@ -65,52 +65,52 @@ Vocab,Pre-Vocab-Context,Post-Vocab-Context,Vocab-Pro,Vocab-English,Vocab-Sound,V
 생일,,,,Birthday,[sound:생일.mp3],Yes,,,,그녀의 생일이 곧 다가온다. ,Her birthday is coming up soon. ,[sound:그녀의 생일이 곧 다가온다..mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS,KJMSSection2Week2
 환갑,,,,60th Birthday,[sound:환갑.mp3],Yes,,,, 다음 주 토요일이 우리 아버지의 환갑이다 ,Next Saturday is my father's 60th birthday. ,[sound: 다음 주 토요일이 우리 아버지의 환갑이다.mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS,KJMSSection2Week2
 양치하다,,,양치하다,To brush teeth,[sound:양치하다.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-거실,,,,Living Room,[sound:거실.mp3],Yes,居室,(TOPIK Elementary),,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-운동하다,,,운ː동하다,To do exercise,[sound:운ː동하다.mp3],Yes,運動하다,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-금요일,,,그묘일,Friday,[sound:그묘일.mp3],Yes,金曜日,(TOPIK Elementary),金 = Gold,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-월요일,,,워료일,Monday,[sound:워료일.mp3],Yes,月曜日,(TOPIK Elementary),月 = Moon,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-커피,,,,Coffee,[sound:커피.mp3],Yes,,(TOPIK Elementary),Loan word,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-차,,,차,Tea / Car,[sound:차.mp3],Yes,茶,(TOPIK Elementary),Tea (茶)  - Car (車),,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-만들다,,,만들다,To make,[sound:만들다.mp3],Yes,,(TOPIK Elementary),"""put together"" something from pieces",,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-끓이다,,,끄리다,Boil,[sound:끄리다.mp3],Yes,,(TOPIK Elementary),"Used in class as ""brew"", to make using boiling water",,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-일어나다,,,이러나다,stand up; rise; sit up / get up,[sound:이러나다.mp3],Yes,,(TOPIK Elementary),,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-뒤뜰,,,,backyard,[sound:뒤뜰.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-일요일,,,,Sunday,[sound:일요일.mp3],Yes,日曜日,(TOPIK Elementary),日  = Sun,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-매일,,,,Everyday,[sound:매일.mp3],Yes,每日,(TOPIK Elementary),,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-면도하다,,,면ː도하다,shave,[sound:면ː도하다.mp3],Yes,面刀하다,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-목요일,,,,Thursday,[sound:목요일.mp3],Yes,木曜日,(TOPIK Elementary),木 = Wood,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-부엌,,,부억,kitchen,[sound:부억.mp3],Yes,,(TOPIK Elementary),,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-샤워하다,,,샤워하다,"To do shower (To ""take"" a shower)",[sound:샤워하다.mp3],Yes,,,Loan word,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
+거실,,,,Living Room,[sound:pronunciation_ko_거실.mp3],,居室,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+운동하다,,,운ː동하다,To do exercise,[sound:pronunciation_ko_운동하다.mp3],,運動하다,,,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+금요일,,,그묘일,Friday,[sound:pronunciation_ko_금요일.mp3],,金曜日,(TOPIK Elementary),金 = Gold,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+월요일,,,워료일,Monday,[sound:pronunciation_ko_월요일.mp3],,月曜日,(TOPIK Elementary),月 = Moon,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+커피,,,,Coffee,[sound:pronunciation_ko_커피.mp3],,,(TOPIK Elementary),Loan word,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+차,,,차,Tea / Car,[sound:pronunciation_ko_차.mp3],,茶,(TOPIK Elementary),Tea (茶)  - Car (車),,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+만들다,,,만들다,To make,[sound:pronunciation_ko_만들다.mp3],,,(TOPIK Elementary),"""put together"" something from pieces",,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+끓이다,,,끄리다,Boil,[sound:pronunciation_ko_끓이다.mp3],,,(TOPIK Elementary),"Used in class as ""brew"", to make using boiling water",,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+일어나다,,,이러나다,stand up; rise; sit up / get up,[sound:pronunciation_ko_일어나다.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+뒤뜰,,,,backyard,[sound:pronunciation_ko_뒤뜰.mp3],,,,,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+일요일,,,,Sunday,[sound:pronunciation_ko_일요일.mp3],,日曜日,(TOPIK Elementary),日  = Sun,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+매일,,,,Everyday,[sound:pronunciation_ko_매일.mp3],,每日,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+면도하다,,,면ː도하다,shave,[sound:pronunciation_ko_면도하다.mp3],,面刀하다,,,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+목요일,,,,Thursday,[sound:pronunciation_ko_목요일.mp3],,木曜日,(TOPIK Elementary),木 = Wood,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+부엌,,,부억,kitchen,[sound:pronunciation_ko_부엌.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+샤워하다,,,샤워하다,"To do shower (To ""take"" a shower)",[sound:pronunciation_ko_샤워하다.mp3],,,,Loan word,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
 소변보다,,,소ː변보다,urinate,[sound:소ː변보다.mp3],Yes,小便보다,,"소변 = urine, 보다 = To see",,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-수요일,,,,Wednesday,[sound:수요일.mp3],Yes,水曜日,(TOPIK Elementary),水 = Water,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-식당,,,,"restaurant; eating place (""Dining Room"")",[sound:식당.mp3],Yes,食堂,(TOPIK Elementary),,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-정원,,,,garden,[sound:정원.mp3],Yes,庭園,(TOPIK Elementary),,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-주말,,,,weekend,[sound:주말.mp3],Yes,週末,(TOPIK Elementary),,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-주일,,,,week,[sound:주일.mp3],Yes,週日,(TOPIK Elementary),,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-침실,,,,bedroom,[sound:침실.mp3],Yes,寢室,(TOPIK Elementary),,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-토요일,,,,Saturday,[sound:토요일.mp3],Yes,土曜日,(TOPIK Elementary),土 = Earth / Soil / Dirt,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-화요일,,,,Tuesday,[sound:화요일.mp3],Yes,火曜日,(TOPIK Elementary),火 = Fire,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-화장실,,,,toilet; restroom; bathroom,[sound:화장실.mp3],Yes,化粧室,(TOPIK Elementary),,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
+수요일,,,,Wednesday,[sound:pronunciation_ko_수요일.mp3],,水曜日,(TOPIK Elementary),水 = Water,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+식당,,,,"restaurant; eating place (""Dining Room"")",[sound:pronunciation_ko_식당.mp3],,食堂,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+정원,,,,garden,[sound:pronunciation_ko_정원.mp3],,庭園,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+주말,,,,weekend,[sound:pronunciation_ko_주말.mp3],,週末,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+주일,,,,week,[sound:pronunciation_ko_주일.mp3],,週日,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+침실,,,,bedroom,[sound:pronunciation_ko_침실.mp3],,寢室,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+토요일,,,,Saturday,[sound:pronunciation_ko_토요일.mp3],,土曜日,(TOPIK Elementary),土 = Earth / Soil / Dirt,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+화요일,,,,Tuesday,[sound:pronunciation_ko_화요일.mp3],,火曜日,(TOPIK Elementary),火 = Fire,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+화장실,,,,toilet; restroom; bathroom,[sound:pronunciation_ko_화장실.mp3],,化粧室,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
 일하러가다,,,,To go to work,[sound:일하러가다.mp3],Yes,,,"Remember here ""work"" is a concept, not a place. ""Going to do the concept of working""",,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-아침,,,,Morning,[sound:아침.mp3],Yes,,,"Also used for ""Breakfast""",,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-아침식사,,,,Breakfast,[sound:아침식사.mp3],Yes,,,"Literally ""Morning Meal"" can be shorted to ""아침""",,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-식사,,,,Meal,[sound:식사.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-먹다,,,,To Eat,[sound:먹다.mp3],Yes,,(TOPIK Elementary),,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-마당,,,,Yard,[sound:마당.mp3],Yes,,(TOPIK Elementary),,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-앞마당,,,,Front Yard,[sound:앞마당.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
+아침,,,,Morning,[sound:pronunciation_ko_아침.mp3],,,,"Also used for ""Breakfast""",,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+아침식사,,,,Breakfast,[sound:pronunciation_ko_아침식사.mp3],,,,"Literally ""Morning Meal"" can be shorted to ""아침""",,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+식사,,,,Meal,[sound:pronunciation_ko_식사.mp3],,,,,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+먹다,,,,To Eat,[sound:pronunciation_ko_먹다.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+마당,,,,Yard,[sound:pronunciation_ko_마당.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+앞마당,,,,Front Yard,[sound:pronunciation_ko_앞마당.mp3],,,,,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
 학교에가다,,,,To go to school,[sound:학교에가다.mp3],Yes,,,"에 Location marking particle, 가다 to go",,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-가다,,,,To go,[sound:가다.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-학교,,,학꾜,School,[sound:학꾜.mp3],Yes,學校,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
+가다,,,,To go,[sound:pronunciation_ko_가다.mp3],,,,,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+학교,,,학꾜,School,[sound:pronunciation_ko_학교.mp3],,學校,,,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
 화장실에가다,,,,To go to the bathroom,[sound:화장실에가다.mp3],Yes,,,Literally to go to the location that is the bathroom,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
 대변보다,,,,To defecate,[sound:대변보다.mp3],Yes,,,"대변 = Feces, 보다 = to see",,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-月,,,,Moon - pronounced 월,[sound:月.mp3],Yes,,,한자 used to represent Monday,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-火,,,,Fire - pronounced 화,[sound:火.mp3],Yes,,,한자 used to represent Tuesday,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-水,,,,Water - pronounced 수,[sound:水.mp3],Yes,,,한자 used to represent Wednesday,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-木,,,,Wood - pronounced 목,[sound:木.mp3],Yes,,,한자 used to represent Thursday,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-金,,,,Gold - pronounced 금,[sound:金.mp3],Yes,,,한자 used to represent Friday,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
+月,,,,Moon - pronounced 월,[sound:pronunciation_ko_月.mp3],,,,한자 used to represent Monday,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+火,,,,Fire - pronounced 화,[sound:pronunciation_ko_火.mp3],,,,한자 used to represent Tuesday,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+水,,,,Water - pronounced 수,[sound:pronunciation_ko_水.mp3],,,,한자 used to represent Wednesday,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+木,,,,Wood - pronounced 목,[sound:pronunciation_ko_木.mp3],,,,한자 used to represent Thursday,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+金,,,,Gold - pronounced 금,[sound:pronunciation_ko_金.mp3],,,,한자 used to represent Friday,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
 土,,,,Earth - pronounced 토,[sound:土.mp3],Yes,,,한자 used to represent Saturday,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-日,,,,Sun - pronounced 일,[sound:日.mp3],Yes,,,한자 used to represent Sunday,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-침대,,,,Bed,[sound:침대.mp3],Yes,寢臺,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
+日,,,,Sun - pronounced 일,[sound:pronunciation_ko_日.mp3],,,,한자 used to represent Sunday,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+침대,,,,Bed,[sound:pronunciation_ko_침대.mp3],,寢臺,,,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
 하나,,,,One,[sound:하나.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
 둘,,,,Two,[sound:둘.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
 셋,,,,Three,[sound:셋.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
@@ -154,9 +154,9 @@ Vocab,Pre-Vocab-Context,Post-Vocab-Context,Vocab-Pro,Vocab-English,Vocab-Sound,V
 백만,,,,One Million,[sound:백만.mp3],Yes,,,"1,000,000",,,,,,,,Papago Naver TTS,,KJMSSection1
 천만,,,,Ten Million,[sound:천만.mp3],Yes,,,"10,000,000",,,,,,,,Papago Naver TTS,,KJMSSection1
 억,,,,One Hundred Million,[sound:억.mp3],Yes,,,"100,000,000",,,,,,,,Papago Naver TTS,,KJMSSection1
-첫,,,,,[sound:첫.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
-첮째,,,,,[sound:첮째.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
-첮번째,,,,,[sound:첮번째.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+첮째,,,,First (Ordinal),[sound:첮째.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+첮번째,,,,First,[sound:첮번째.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
+번째,-,,,Ordinal Counting,[sound:번째.mp3],Yes,,,Used with pure Korean number - 두번째 -> Second,,,,,,,,Papago Naver TTS,,
 하다,,,,To Do,[sound:하다.mp3],Yes,,,Can be combined with Nouns to make verbs (Ex. Food to do -> Do the food thing -> To Eat),,,,,,,,Papago Naver TTS,,KJMSSection1
 되다,,,,To Become,[sound:되다.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
 주다,,,,To Give,[sound:주다.mp3],Yes,,,"Can be added after other verbs to make a ""Please [Verb]"" type sentence",,,,,,,,Papago Naver TTS,,KJMSSection1
@@ -188,7 +188,7 @@ Vocab,Pre-Vocab-Context,Post-Vocab-Context,Vocab-Pro,Vocab-English,Vocab-Sound,V
 면,-,,,If,[sound:면.mp3],Yes,,,Conjunctive,그를 만나면 이 쪽지 좀 전해 줘.,"If you see him, give him this note. ",[sound:그를 만나면 이 쪽지 좀 전해 줘..mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS,KJMSSection1
 그래서,,,,So/Because/Therefore,[sound:그래서.mp3],Yes,,,"When you use ‘그래서’ between two sentences, it means that the former sentence is the reason for the latter sentence.",우리가 아주 바빠요. 너무 그래서 올해는 쉴 시간을 못 낼 것 같아요. ,We are very busy—so much so that we won’t be able to take time off this year. ,[sound:우리가 아주 바빠요. 너무 그래서 올해는 쉴 시간을 못 낼 것 같아요..mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS,KJMSSection1
 서,-,,,So/Because,[sound:서.mp3],Yes,,,A postpositional particle used to indicate that the preceding word refers to grounds for doing something.,,,,,,,,Papago Naver TTS,,KJMSSection1
-그러니까,,,,So/Because / That is to say,[sound:그러니까.mp3],Yes,,,"For that reason, or therefore / To begin with.",그러니까 당신이 그들의 제의를 받아들일 수도 있군요?,So you might accept their offer?,[sound:그러니까 당신이 그들의 제의를 받아들일 수도 있군요.mp3],Yes,,,,Papago Naver TTS,Papago Naver TTS,KJMSSection1
+그러니까,,,,So/Because / That is to say,[sound:pronunciation_ko_그러니까.mp3],,,,"For that reason, or therefore / To begin with.",그러니까 당신이 그들의 제의를 받아들일 수도 있군요?,So you might accept their offer?,[sound:그러니까 당신이 그들의 제의를 받아들일 수도 있군요.mp3],Yes,,,,Forvo Native Speaker,Papago Naver TTS,KJMSSection1
 도,,,,Also,[sound:도.mp3],Yes,,,"Can be used in list format: Noun도, Noun도",,,,,,,,Papago Naver TTS,,KJMSSection1
-차고,,,,Garage,[sound:차고.mp3],Yes,車庫,,Mnemonic: The 차 (car) 고 in the garage!,,,,,,,,Papago Naver TTS,,KJMSSection2Week3
-댁,,,,(polite form) Another person's home or family.,[sound:댁.mp3],Yes,宅,,,,,,,,,,Papago Naver TTS,,KJMSSection2Week1
+차고,,,,Garage,[sound:pronunciation_ko_차고.mp3],,車庫,,Mnemonic: The 차 (car) 고 in the garage!,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
+댁,,,,(polite form) Another person's home or family.,[sound:pronunciation_ko_댁.mp3],,宅,,,,,,,,,,Forvo Native Speaker,,KJMSSection2Week1

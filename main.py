@@ -55,12 +55,20 @@ def add_media_to_package(package: genanki.Package) -> None:
     logging.log(SPAM, f"Start of '{inspect.currentframe().f_code.co_name}()'")  # type: ignore
 
     file_list = os.listdir("media")
+    forvo_list = os.listdir("forvo_media")
     logging.log(SPAM, f"Files in 'media' folder: {file_list}")
 
     for mediaFile in file_list:
         logging.debug(f"Adding file '{mediaFile}' to package")
-        package.media_files.append(f"media/{mediaFile}")
+        if os.path.isfile(f"media/{mediaFile}"):
+            package.media_files.append(f"media/{mediaFile}")
         logging.log(SPAM, f"Finished adding file '{mediaFile}' to package")
+
+    for forvoMediaFile in forvo_list:
+        logging.debug(f"Adding file '{forvoMediaFile}' to package")
+        if os.path.isfile(f"forvo_media/{forvoMediaFile}"):
+            package.media_files.append(f"forvo_media/{forvoMediaFile}")
+        logging.log(SPAM, f"Finished adding file Forvo '{forvoMediaFile}' to package")
 
     logging.log(SPAM, f"End of '{inspect.currentframe().f_code.co_name}()'")  # type: ignore
     return
@@ -229,8 +237,14 @@ def generate_missing_audio(notes: list[dict]) -> list[dict]:
         logging.debug(f"Sentence: '{sentence}'")
 
         if word:
-            if pronunciation:
+            if os.path.isfile(f"forvo_media/pronunciation_ko_{word}.mp3"):
+                logger.debug("Audio found within 'forvo_media' folder")
+                n["Vocab-Sound-Is-TTS"] = ""
+                n["Vocab-Sound"] = f"[sound:pronunciation_ko_{word}.mp3]"
+                n["Vocab-Sound-Source"] = "Forvo Native Speaker"
+            elif pronunciation:
                 if not os.path.isfile(f"media/{pronunciation}.mp3"):
+                    logger.debug("Audio not found, generating TTS audio.")
                     pronunciation_filename = generate_audio(pronunciation)
                     n["Vocab-Sound-Is-TTS"] = "Yes"
                     n["Vocab-Sound"] = (

@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.0.5] - 2025-04-11
+## [0.0.5] - 2025-04-XXX PRERELEASE
 
 **Note:** 학요 and 요에가다 cards must be manually deleted.
 
@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Removed incorrect spelling (and duplicate) 학요 - 학교
 - Fixed spelling for 학요에가다 -> 학교에가다
+- Added native audio from Forvo.com to all Section 2 Week 3 words (Manual process, additional words will be added over time.)
 
 ### Added
 
