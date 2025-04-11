@@ -15,7 +15,7 @@ if __name__ == "__main__":
     from logging_setup import LoggingArgs
 
 __SCRIPT_VERSION__ = "0.0.2"
-__DECK_VERSION__ = "0.0.3-1"
+__DECK_VERSION__ = "0.0.4"
 
 headers = [
     "Vocab",
@@ -307,9 +307,6 @@ def update_input_file(notes: list[dict]) -> None:
 
 def main() -> None:
     logging.log(SPAM, f"Start of '{inspect.currentframe().f_code.co_name}()'")  # type: ignore
-    logging.log(SUCCESS, "'궁중무술 한국어 어 수업' Anki Deck Script")
-    logging.log(SUCCESS, f"Version v{__SCRIPT_VERSION__}")
-    logging.log(SUCCESS, "##########################################")
 
     model = build_model()
     logging.info("Finished building model")
@@ -367,6 +364,11 @@ if __name__ == "__main__":
 
     logArgs: LoggingArgs = main_setup()
 
+    logging.log(SPAM, f"Start of '{inspect.currentframe().f_code.co_name}()'")  # type: ignore
+    logging.log(SUCCESS, "'궁중무술 한국어 어 수업' Anki Deck Script")
+    logging.log(SUCCESS, f"Version v{__SCRIPT_VERSION__}")
+    logging.log(SUCCESS, f"Building deck version v{__DECK_VERSION__}")
+    logging.log(SUCCESS, "##########################################")
     main()
     logging.log(SUCCESS, "##########################################")
     logging.log(SUCCESS, "Script execution complete")

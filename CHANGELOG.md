@@ -7,6 +7,66 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.4] - 2025-04-11
+
+**Note:** 임신듸다  card must be manually deleted.
+
+### Added
+
+- Add Section 2 Week 3 Vocab
+  - 양치하다
+  - 거실
+  - 운동하다
+  - 금요일
+  - 월요일
+  - 커피
+  - 차
+  - 만들다
+  - 끓이다
+  - 일어나다
+  - 뒤뜰
+  - 일요일
+  - 매일
+  - 면도하다
+  - 목요일
+  - 부엌
+  - 샤워하다
+  - 소변보다
+  - 수요일
+  - 식당
+  - 정원
+  - 주말
+  - 주일
+  - 침실
+  - 토요일
+  - 학요
+  - 화요일
+  - 화장실
+  - 일하러가다
+  - 아침
+  - 아침식사
+  - 식사
+  - 먹다
+  - 마당
+  - 앞마당
+  - 학요에가다
+  - 가다
+  - 학교
+  - 화장실에가다
+  - 대변보다
+  - 月
+  - 火
+  - 水
+  - 木
+  - 金
+  - 土
+  - 日
+  - 침대
+
+### Fixed
+
+- 임신듸다 -> 임신되다 "To become pregnant" / "To conceive" (#1)
+
 ## [0.0.3-1] - 2025-04-04
 
 **Note:** 내의 and 성진 cards must be manually deleted.
