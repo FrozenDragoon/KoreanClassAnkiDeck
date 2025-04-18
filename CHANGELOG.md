@@ -7,13 +7,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.0.5] - 2025-04-XXX PRERELEASE
+## [0.0.5] - 2025-04-18
 
 **Note:** 학요 and 요에가다 cards must be manually deleted.
 
 ### Fixed
 
-- Removed incorrect spelling (and duplicate) 학요 - 학교
+- Removed incorrect spelling (and duplicate) 학요 -> 학교 (#2)
 - Fixed spelling for 학요에가다 -> 학교에가다
 - Added native audio from Forvo.com to all Section 2 Week 3 words (Manual process, additional words will be added over time.)
 
@@ -103,6 +103,46 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 서
   - 그러니까
   - 도
+- Section 2 Week 4 Vocab (with Forvo native audio)
+  - 개
+  - 강아지
+  - 계단
+  - 고양이
+  - 공부하다
+  - 금붕어
+  - 돌아가다
+  - 돌아오다
+  - 램프
+  - 문
+  - 바닥
+  - 벽
+  - 불
+  - 빛
+  - 새
+  - 선풍기
+  - 풍
+  - 수영장
+  - 식탁
+  - 쓰레기통
+  - 동물
+  - 애완동물
+  - 영화
+  - 보다
+  - 오전
+  - 오후
+  - 운전하다
+  - 의자
+  - 자다
+  - 자러가다
+  - 자동차
+  - 점심
+  - 저녁
+  - 저녁식사
+  - 중에
+  - 동안
+  - 창문
+  - 티비
+  - 텔레비전
 
 ## [0.0.4] - 2025-04-11
 

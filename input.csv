@@ -154,16 +154,15 @@ Vocab,Pre-Vocab-Context,Post-Vocab-Context,Vocab-Pro,Vocab-English,Vocab-Sound,V
 백만,,,,One Million,[sound:백만.mp3],Yes,,,"1,000,000",,,,,,,,Papago Naver TTS,,KJMSSection1
 천만,,,,Ten Million,[sound:천만.mp3],Yes,,,"10,000,000",,,,,,,,Papago Naver TTS,,KJMSSection1
 억,,,,One Hundred Million,[sound:억.mp3],Yes,,,"100,000,000",,,,,,,,Papago Naver TTS,,KJMSSection1
-첮째,,,,First (Ordinal),[sound:첮째.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
 첮번째,,,,First,[sound:첮번째.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
-번째,-,,,Ordinal Counting,[sound:번째.mp3],Yes,,,Used with pure Korean number - 두번째 -> Second,,,,,,,,Papago Naver TTS,,
+번째,-,,,"Ordinal Counting (1st, 2nd, 3rd)",[sound:번째.mp3],Yes,,,Used with pure Korean number - 두번째 -> Second,,,,,,,,Papago Naver TTS,,
 하다,,,,To Do,[sound:하다.mp3],Yes,,,Can be combined with Nouns to make verbs (Ex. Food to do -> Do the food thing -> To Eat),,,,,,,,Papago Naver TTS,,KJMSSection1
 되다,,,,To Become,[sound:되다.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
 주다,,,,To Give,[sound:주다.mp3],Yes,,,"Can be added after other verbs to make a ""Please [Verb]"" type sentence",,,,,,,,Papago Naver TTS,,KJMSSection1
 이다,,,,To Be ,[sound:이다.mp3],Yes,,,Identity,,,,,,,,Papago Naver TTS,,KJMSSection1
-있다,,,,To Be,[sound:있다.mp3],Yes,,,To exist (in a place),,,,,,,,Papago Naver TTS,,KJMSSection1
+있다,,,,"To Be (Exist), To Have",[sound:있다.mp3],Yes,,,To exist (in a place),,,,,,,,Papago Naver TTS,,KJMSSection1
 안이다,,,,To Not Be,[sound:안이다.mp3],Yes,,,Identity,,,,,,,,Papago Naver TTS,,KJMSSection1
-없다,,,,To Be,[sound:없다.mp3],Yes,,,To Not Exist (in a place),,,,,,,,Papago Naver TTS,,KJMSSection1
+없다,,,,To Not Be (Exist),[sound:없다.mp3],Yes,,,Opposite of 있다,,,,,,,,Papago Naver TTS,,KJMSSection1
 누구,,,,Who,[sound:누구.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
 뭐,,,,What,[sound:뭐.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
 무슨,,,,Which,[sound:무슨.mp3],Yes,,,Precedes a noun,,,,,,,,Papago Naver TTS,,KJMSSection1
@@ -192,3 +191,42 @@ Vocab,Pre-Vocab-Context,Post-Vocab-Context,Vocab-Pro,Vocab-English,Vocab-Sound,V
 도,,,,Also,[sound:도.mp3],Yes,,,"Can be used in list format: Noun도, Noun도",,,,,,,,Papago Naver TTS,,KJMSSection1
 차고,,,,Garage,[sound:pronunciation_ko_차고.mp3],,車庫,,Mnemonic: The 차 (car) 고 in the garage!,,,,,,,,Forvo Native Speaker,,KJMSSection2Week3
 댁,,,,(polite form) Another person's home or family.,[sound:pronunciation_ko_댁.mp3],,宅,,,,,,,,,,Forvo Native Speaker,,KJMSSection2Week1
+개,,,,Dog,[sound:pronunciation_ko_개.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+강아지,,,,Puppy,[sound:pronunciation_ko_강아지.mp3],,,,,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+계단,,,,1. Stairs; staircase 2. Step,[sound:pronunciation_ko_계단.mp3],,階段,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+고양이,,,,Cat,[sound:pronunciation_ko_고양이.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+공부하다,,,공부하다,To Study,[sound:pronunciation_ko_공부하다.mp3],,工夫하다,,,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+금붕어,,,,Goldfish,[sound:pronunciation_ko_금붕어.mp3],,金붕어,,,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+돌아가다,,,도라가다,"1. Spin; Rotate 2. ""To Go back""",[sound:pronunciation_ko_돌아가다.mp3],,,(TOPIK Elementary),To go back to a place where one originally was. Naver Dictionary lists this as '되돌아가다' (with 되 in front),,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+돌아오다,,,도라오다,1. To Come Back 2. To Return,[sound:pronunciation_ko_돌아오다.mp3],,,(TOPIK Elementary),To come again to where one was before or to be in such a state.,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+램프,,,,Lamp,[sound:pronunciation_ko_램프.mp3],,,,,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+문,,,,Door,[sound:pronunciation_ko_문.mp3],,門,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+바닥,,,바닥,Floor,[sound:pronunciation_ko_바닥.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+벽,,,벽,Wall,[sound:pronunciation_ko_벽.mp3],,壁,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+불,,,,1. Fire 2. Light,[sound:pronunciation_ko_불.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+빛,,,빋,1. Light 2. Shine,[sound:pronunciation_ko_빛.mp3],,,(TOPIK Intermediate),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+새,,,,1. Bird 2. New,[sound:pronunciation_ko_새.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+선풍기,,,,(Electric) Fan,[sound:pronunciation_ko_선풍기.mp3],,扇風機,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+풍,,,,Wind,[sound:풍.mp3],Yes,,,Couldn't find in dictionary,,,,,,,,Papago Naver TTS,,KJMSSection2Week4
+수영장,,,,Swimming Pool,[sound:pronunciation_ko_수영장.mp3],,水泳場,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+식탁,,,식탁,(Dining) Table,[sound:pronunciation_ko_식탁.mp3],,食卓,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+쓰레기통,,,,Garbage Can; Trash Can,[sound:pronunciation_ko_쓰레기통.mp3],,쓰레기桶,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+동물,,,동ː물,Animal,[sound:pronunciation_ko_동물.mp3],,動物,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+애완동물,,,,Pet (Animal),[sound:pronunciation_ko_애완동물.mp3],,愛玩動物,(TOPIK Intermediate),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+영화,,,영화,"Film, Movie",[sound:pronunciation_ko_영화.mp3],,映畫,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+보다,,,보다,To See; To Look At; To Watch; To View,[sound:pronunciation_ko_보다.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+오전,,,오ː전,1. AM 2. Morning,[sound:pronunciation_ko_오전.mp3],,午前,(TOPIK Elementary),"When writing times, comes before hour number.",,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+오후,,,,1. PM 2. Afternoon,[sound:pronunciation_ko_오후.mp3],,午後,(TOPIK Elementary),"When writing times, comes before hour number.",,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+운전하다,,,운ː전하다,1. Drive 2. Operate,[sound:pronunciation_ko_운전하다.mp3],,運轉하다,,,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+의자,,,,Chair,[sound:pronunciation_ko_의자.mp3],,椅子,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+자다,,,자다,Sleep,[sound:pronunciation_ko_자다.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+자러가다,,,,"""To Go To Sleep""",[sound:자러가다.mp3],Yes,,,Literally: To go do the act of sleeping.,,,,,,,,Papago Naver TTS,,KJMSSection2Week4
+자동차,,,,Automobile (Car),[sound:pronunciation_ko_자동차.mp3],,自動車,(TOPIK Elementary),Longer version of '차' meaning Car,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+점심,,,,Lunch,[sound:pronunciation_ko_점심.mp3],,點心,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+저녁,,,저녁,Evening,[sound:pronunciation_ko_저녁.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+저녁식사,,,,Dinner (Evening Meal),[sound:pronunciation_ko_저녁식사.mp3],,,,,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+중에,,,,"""In the middle of"" / While / During",[sound:pronunciation_ko_중에.mp3],,中,(TOPIK Elementary),"Can be used with time or place. <br/> (?) Carries nuance of an instantaneous or sudden occurrence, NOT something that happened over time in addition to the thing it occurred in the middle of. ",,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+동안,,,,While / During,[sound:pronunciation_ko_동안.mp3],,,,"Can be used with time, or to refer to the time an act took place. ""While driving I listed to music"" type nuance. ",,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+창문,,,,Window,[sound:pronunciation_ko_창문.mp3],,窓門,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+티비,,,티브이,TV; television,[sound:pronunciation_ko_티비.mp3],,TV,,,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+텔레비전,,,,TV; television,[sound:pronunciation_ko_텔레비전.mp3],,television,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
