@@ -149,7 +149,7 @@ Vocab,Pre-Vocab-Context,Post-Vocab-Context,Vocab-Pro,Vocab-English,Vocab-Sound,V
 구십,,,,Ninety,[sound:구십.mp3],Yes,,,,,,,,,,,Papago Naver TTS,,KJMSSection1
 백,,,,One Hundred,[sound:백.mp3],Yes,,,100,,,,,,,,Papago Naver TTS,,KJMSSection1
 천,,,,One Thousand,[sound:천.mp3],Yes,,,"1,000",,,,,,,,Papago Naver TTS,,KJMSSection1
-만,,,,Ten Thousand,[sound:만.mp3],Yes,,,"10,000",,,,,,,,Papago Naver TTS,,KJMSSection1
+만,,,,Ten Thousand,[sound:pronunciation_ko_만.mp3],,,,"10,000",,,,,,,,Forvo Native Speaker,,KJMSSection1
 십만,,,,One Hundred Thousand,[sound:십만.mp3],Yes,,,"100,000",,,,,,,,Papago Naver TTS,,KJMSSection1
 백만,,,,One Million,[sound:백만.mp3],Yes,,,"1,000,000",,,,,,,,Papago Naver TTS,,KJMSSection1
 천만,,,,Ten Million,[sound:천만.mp3],Yes,,,"10,000,000",,,,,,,,Papago Naver TTS,,KJMSSection1
@@ -230,3 +230,33 @@ Vocab,Pre-Vocab-Context,Post-Vocab-Context,Vocab-Pro,Vocab-English,Vocab-Sound,V
 창문,,,,Window,[sound:pronunciation_ko_창문.mp3],,窓門,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
 티비,,,티브이,TV; television,[sound:pronunciation_ko_티비.mp3],,TV,,,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
 텔레비전,,,,TV; television,[sound:pronunciation_ko_텔레비전.mp3],,television,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection2Week4
+가깝다,,,가깝따,near; close; adjacent,[sound:pronunciation_ko_가깝다.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+걷다,,,걷ː따,walk,[sound:pronunciation_ko_걷다.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+기다리다,,,기다리다,wait,[sound:pronunciation_ko_기다리다.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+내부,,,내ː부,inside; interior,[sound:pronunciation_ko_내부.mp3],,內部,(TOPIK Intermediate),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+달리다,,,달리다,run,[sound:pronunciation_ko_달리다.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+뒤,,,,1.back 2.behind,[sound:pronunciation_ko_뒤.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+만,-,,,"Only, alone, just, merely",[sound:pronunciation_ko_만.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+많다,,,만ː타,plentiful; many; a lot of,[sound:pronunciation_ko_많다.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+멀다,,,멀ː다,distant; far-off,[sound:pronunciation_ko_멀다.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+멈추다,,,멈추다,1.stop; halt 2.stop doing; quit,[sound:pronunciation_ko_멈추다.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+밖,,,박,outside; exterior,[sound:pronunciation_ko_밖.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+아래,,,,Downward direction,[sound:pronunciation_ko_아래.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+앉다,,,안따,sit; be seated,[sound:pronunciation_ko_앉다.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+앞,,,압,front,[sound:pronunciation_ko_앞.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+옆,,,엽,side(way) direction,[sound:pronunciation_ko_옆.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+오른쪽,,,오른쪽,right side,[sound:pronunciation_ko_오른쪽.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+왼쪽,,,웬ː쪽 ,Left Side,[sound:pronunciation_ko_왼쪽.mp3],,,,,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+위,,,,Up direction,[sound:pronunciation_ko_위.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+서다,,,서다,stand,[sound:pronunciation_ko_서다.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+작다,,,작ː따,small; little,[sound:pronunciation_ko_작다.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+적다,,,적ː따,little; a little,[sound:pronunciation_ko_적다.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+전,,,,Earlier (time),[sound:pronunciation_ko_전.mp3],,前,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+중,,,,"Middle (during, time)",[sound:pronunciation_ko_중.mp3],,中,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+직진,,,직찐,straight direction,[sound:pronunciation_ko_직진.mp3],,直進,(TOPIK Intermediate),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+추다,,,추다,dance,[sound:pronunciation_ko_추다.mp3],,,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+크다,,,크다,big; large,[sound:크다.mp3],Yes,,(TOPIK Elementary),,,,,,,,,Papago Naver TTS,,KJMSSection3Week1
+후,,,,Later (time),[sound:pronunciation_ko_후.mp3],,後,(TOPIK Elementary),,,,,,,,,Forvo Native Speaker,,KJMSSection3Week1
+中,,,중,"Middle (during, time)",,,,,한자 for 중,,,,,,,,,,KJMSSection3Week1
+左,,,좌,"Left, left side",[sound:좌.mp3],Yes,,,한자 pronounced 좌,,,,,,,,Papago Naver TTS,,KJMSSection3Week1
+正,,,,"Right, Right Side",[sound:正.mp3],Yes,,,Could not find 한자 in dictionary; unsure of pronunciation,,,,,,,,Papago Naver TTS,,KJMSSection3Week1

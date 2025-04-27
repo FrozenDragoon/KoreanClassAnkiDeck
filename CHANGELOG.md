@@ -7,6 +7,42 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.6] - 2025-04-27
+
+### Added
+
+- Section 3 Week 1 Vocab
+  - 가깝다
+  - 걷다
+  - 기다리다
+  - 내부
+  - 달리다
+  - 뒤
+  - 만
+  - 많다
+  - 멀다
+  - 멈추다
+  - 밖
+  - 아래
+  - 앉다
+  - 앞
+  - 옆
+  - 오른쪽
+  - 왼쪽
+  - 위
+  - 서다
+  - 작다
+  - 적다
+  - 전
+  - 중
+  - 직진
+  - 추다
+  - 크다
+  - 후
+  - 中
+  - 左
+  - 正
+
 ## [0.0.5] - 2025-04-18
 
 **Note:** 학요 and 요에가다 cards must be manually deleted.
